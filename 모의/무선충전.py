@@ -12,7 +12,6 @@ for tc in range(1, T+1):
         AP.append(list(map(int, input().split())))
     AP.sort(key=lambda x : x[3], reverse= True) # p가 높은 순으로 정렬
 
-    chargeA = [] # 시간별 충전 영역
 
     # user 시작 위치
     iA = 1
